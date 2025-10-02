@@ -35,7 +35,7 @@ elif port_num == 443:
    print('Risk Assessment: LOW RISK: Secure encrypted transfer detected.')
    print('------------------------')
 else:
-    print('UNKNOWN: Unrecognized traffic pattern.')
+    print('Risk Assessment: UNKNOWN: Unrecognized traffic pattern.')
     print('------------------------')
 
 
