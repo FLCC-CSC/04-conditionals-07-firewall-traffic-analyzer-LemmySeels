@@ -35,6 +35,8 @@ elif port_num == 443:
    print('Risk Assessment: LOW RISK: Secure encrypted transfer detected.')
    print('------------------------')
 else:
+    print('FIREWALL LOG:')
+    print(f'Port: {port_num}, Transfer Size: {tran_size} MB')
     print('Risk Assessment: UNKNOWN: Unrecognized traffic pattern.')
     print('------------------------')
 
